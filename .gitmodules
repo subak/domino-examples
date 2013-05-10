@@ -1,0 +1,6 @@
+[submodule "node_modules/domino-class"]
+	path = node_modules/domino-class
+	url = https://github.com/subak/domino-class.git
+[submodule "node_modules/domino-mvc"]
+	path = node_modules/domino-mvc
+	url = https://github.com/subak/domino-mvc.git
