@@ -1,11 +1,13 @@
 {
   "name": "domino-examples",
   "dependencies": {
-    "domino-mvc": "git://github.com/subak/domino-mvc.git"
+    "domino-mvc": "git://github.com/subak/domino-mvc.git",
+    "requirejs": "2.1.x",
+    "amdefine": "0.0.x",
+    "st": "0.1.x"
   },
   "devDependencies": {
     "domino-class": "git://github.com/subak/domino-class.git",
-    "requirejs": "2.1.x",
     "jasmine-node": "1.7.x"
   }
 }
