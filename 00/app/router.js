@@ -1,4 +1,6 @@
 define(["url", "domino-mvc"], function (url, domino) {
+  var parent = domino.Router;
+
   function Router(request, response) {
     try {
       this.parseRequest(request);
@@ -21,7 +23,7 @@ define(["url", "domino-mvc"], function (url, domino) {
 
   fn.parseRequest = function (request) {
     var parsedUrl = url.parse(request.url, true);
-    this.super().constructor.call(this, this.getTarget(request.method, parsedUrl.pathname), parsedUrl.query, domino.routes.railsRestStyle);
+    this.superClass.call(this, this.getTarget(request.method, parsedUrl.pathname), parsedUrl.query, domino.routes.railsRestStyle);
   };
 
   fn.getTarget = function ( method, pathname ) {

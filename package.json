@@ -4,7 +4,8 @@
     "domino-mvc": "git://github.com/subak/domino-mvc.git",
     "requirejs": "2.1.x",
     "amdefine": "0.0.x",
-    "st": "0.1.x"
+    "st": "0.1.x",
+    "node-uuid": "1.4.x"
   },
   "devDependencies": {
     "domino-class": "git://github.com/subak/domino-class.git",

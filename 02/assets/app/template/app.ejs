@@ -1,0 +1,51 @@
+<div data-id="<%= this.id %>">
+  <p>hello, world.</p>
+
+  <% this.renderSubView("items", function () { %>
+  <table data-id="<%= this.id %>" class="table table-bordered table-condensed">
+    <tr>
+      <th>title</th>
+      <td><%= this.title %></td>
+    </tr>
+    <tr>
+      <th>link</th>
+      <td><%= this.link %></td>
+    </tr>
+    <tr>
+      <th>media</th>
+      <td>
+        <table class="table table-bordered table-condensed" data-tpl-block="media">
+          <tr>
+            <th>m</th>
+            <td><%= this.m %></td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <th>date_taken</th>
+      <td><%= this.date_taken %></td>
+    </tr>
+    <tr>
+      <th>description</th>
+      <td data-tpl-append="<%= this.description %>"></td>
+    </tr>
+    <tr>
+      <th>published</th>
+      <td><%= this.published %></td>
+    </tr>
+    <tr>
+      <th>author</th>
+      <td><%= this.author %></td>
+    </tr>
+    <tr>
+      <th>author_id</th>
+      <td><%= this.author_id %></td>
+    </tr>
+    <tr>
+      <th>tags</th>
+      <td><%= this.tags %></td>
+    </tr>
+  </table>
+  <% }) %>
+</div>
