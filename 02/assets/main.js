@@ -1,13 +1,14 @@
 require(["knockout", "app/application", "domReady!"], function(ko, Application) {
   "use strict";
 
-  new Application()
+  var app = new Application();
 
-  //var appView = new AppView();
+  var vm = {
+    title: app.title.get(),
+    html: app.html
+  };
 
-  var title = ko.observable("Hello, world.");
+  ko.applyBindings(vm, document.documentElement);
 
-//  var title = new Model(ko.observable("02"));
-
-  ko.applyBindings({app: "hello world!", title: title}, document.documentElement);
+  app.afterBinding();
 });

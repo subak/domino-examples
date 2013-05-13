@@ -1,0 +1,45 @@
+<table data-id="<%= this.id %>" class="table table-bordered table-condensed">
+  <tr>
+    <th>title</th>
+    <td><%= this.model.title %></td>
+  </tr>
+  <tr>
+    <th>link</th>
+    <td data-bind="text: link"></td>
+  </tr>
+  <tr>
+    <th>media</th>
+    <td>
+      <table class="table table-bordered table-condensed" data-tpl-block="media">
+        <tr>
+          <th>m</th>
+          <td data-bind="text: media.m"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <!--<tr>-->
+    <!--<th>date_taken</th>-->
+    <!--<td data-bind="text: data_taken"></td>-->
+  <!--</tr>-->
+  <tr>
+    <th>description</th>
+    <td data-tpl-append=""></td>
+  </tr>
+  <tr>
+    <th>published</th>
+    <td data-bind="text: published"></td>
+  </tr>
+  <tr>
+    <th>author</th>
+    <td data-bind="text: author"></td>
+  </tr>
+  <tr>
+    <th>author_id</th>
+    <td data-bind="text: author_id"></td>
+  </tr>
+  <tr>
+    <th>tags</th>
+    <td data-bind="text: tags"></td>
+  </tr>
+</table>
