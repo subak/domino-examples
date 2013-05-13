@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aef8545f-fc28-4da2-b71a-3634fb4d6bc8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/domino-class/lib/class.js" afterPath="$PROJECT_DIR$/node_modules/domino-class/lib/class.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/config.js" afterPath="$PROJECT_DIR$/lib/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/00/assets/index.html" afterPath="$PROJECT_DIR$/00/assets/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/00/app/router.js" afterPath="$PROJECT_DIR$/00/app/router.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/domino-mvc/lib/router.js" afterPath="$PROJECT_DIR$/node_modules/domino-mvc/lib/router.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/02/assets/app/template/a.ejs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/02/assets/app/view/a.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/domino-class" afterPath="$PROJECT_DIR$/node_modules/domino-class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/domino-mvc" afterPath="$PROJECT_DIR$/node_modules/domino-mvc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02/assets/app/model/app.js" afterPath="$PROJECT_DIR$/02/assets/app/model/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02/assets/app/view/app.js" afterPath="$PROJECT_DIR$/02/assets/app/view/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02/assets/app/application.js" afterPath="$PROJECT_DIR$/02/assets/app/application.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="domino-examples.iws" />
@@ -21,20 +22,22 @@
     <file path="/domino-mvc.js" changelist="aef8545f-fc28-4da2-b71a-3634fb4d6bc8" time="1368210054258" ignored="false" />
     <file path="/main.js" changelist="aef8545f-fc28-4da2-b71a-3634fb4d6bc8" time="1368446327385" ignored="false" />
     <file path="/index.html" changelist="aef8545f-fc28-4da2-b71a-3634fb4d6bc8" time="1368433059922" ignored="false" />
-    <file path="/view.js" changelist="aef8545f-fc28-4da2-b71a-3634fb4d6bc8" time="1368249211293" ignored="false" />
+    <file path="/view.js" changelist="aef8545f-fc28-4da2-b71a-3634fb4d6bc8" time="1368449551096" ignored="false" />
     <file path="/mvc.js" changelist="aef8545f-fc28-4da2-b71a-3634fb4d6bc8" time="1368252046136" ignored="false" />
     <file path="/routes.js" changelist="aef8545f-fc28-4da2-b71a-3634fb4d6bc8" time="1368252246650" ignored="false" />
     <file path="/config.js" changelist="aef8545f-fc28-4da2-b71a-3634fb4d6bc8" time="1368445907881" ignored="false" />
     <file path="/a.ejs" changelist="aef8545f-fc28-4da2-b71a-3634fb4d6bc8" time="1368398542493" ignored="false" />
     <file path="/a.dummy" changelist="aef8545f-fc28-4da2-b71a-3634fb4d6bc8" time="1368447788127" ignored="false" />
     <file path="/a.js" changelist="aef8545f-fc28-4da2-b71a-3634fb4d6bc8" time="1368398316158" ignored="false" />
-    <file path="/app.js" changelist="aef8545f-fc28-4da2-b71a-3634fb4d6bc8" time="1368447959185" ignored="false" />
+    <file path="/app.js" changelist="aef8545f-fc28-4da2-b71a-3634fb4d6bc8" time="1368455966593" ignored="false" />
     <file path="/app.ejs" changelist="aef8545f-fc28-4da2-b71a-3634fb4d6bc8" time="1368436131793" ignored="false" />
     <file path="/ejs.js" changelist="aef8545f-fc28-4da2-b71a-3634fb4d6bc8" time="1368432957538" ignored="false" />
-    <file path="/application.js" changelist="aef8545f-fc28-4da2-b71a-3634fb4d6bc8" time="1368446432046" ignored="false" />
+    <file path="/application.js" changelist="aef8545f-fc28-4da2-b71a-3634fb4d6bc8" time="1368456626061" ignored="false" />
     <file path="/dom.js" changelist="aef8545f-fc28-4da2-b71a-3634fb4d6bc8" time="1368447421173" ignored="false" />
     <file path="/domino-model.js" changelist="aef8545f-fc28-4da2-b71a-3634fb4d6bc8" time="1368445992860" ignored="false" />
-    <file path="/model.js" changelist="aef8545f-fc28-4da2-b71a-3634fb4d6bc8" time="1368446080155" ignored="false" />
+    <file path="/model.js" changelist="aef8545f-fc28-4da2-b71a-3634fb4d6bc8" time="1368452175441" ignored="false" />
+    <file path="/domino-view.js" changelist="aef8545f-fc28-4da2-b71a-3634fb4d6bc8" time="1368449605099" ignored="false" />
+    <file path="/item.js" changelist="aef8545f-fc28-4da2-b71a-3634fb4d6bc8" time="1368456495737" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,55 +97,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02/assets/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="19" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02/assets/app/controller/app.js">
+        <entry file="file://$PROJECT_DIR$/02/assets/app/model/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="class.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/domino-class/lib/class.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="21" selection-start="1501" selection-end="1501" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="router.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/node_modules/domino-mvc/lib/router.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="33" selection-start="614" selection-end="614" vertical-scroll-proportion="0.6903766">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="router.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/00/app/router.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="130" selection-start="773" selection-end="773" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dom.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/controller/dom.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="3" selection-start="616" selection-end="616" vertical-scroll-proportion="0.0">
+            <state line="11" column="21" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -151,25 +109,79 @@
       <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02/assets/app/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0">
+            <state line="12" column="20" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02/assets/app/model/app.js">
+      <file leaf-file-name="item.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02/assets/app/view/item.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="3" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
+            <state line="7" column="18" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.ejs" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/domino-mvc/lib/application.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="21" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="item.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02/assets/app/model/item.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="45" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="model.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/domino-mvc/lib/model.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="3" selection-start="611" selection-end="611" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/domino-mvc/lib/view.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="2" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="domino-view.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/domino-mvc/domino-view.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="0" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.ejs" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/02/assets/app/template/app.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="6" selection-start="1105" selection-end="1105" vertical-scroll-proportion="-31.25">
+            <state line="3" column="0" selection-start="55" selection-end="55" vertical-scroll-proportion="0.066273935">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="item.ejs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02/assets/app/template/item.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -193,22 +205,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/00/assets/index.html" />
-        <option value="$PROJECT_DIR$/02/assets/app/view/app.js" />
-        <option value="$PROJECT_DIR$/02/assets/index.html" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/lib/config.js" />
-        <option value="$PROJECT_DIR$/node_modules/domino-mvc/domino-model.js" />
-        <option value="$PROJECT_DIR$/node_modules/domino-mvc/lib/model.js" />
-        <option value="$PROJECT_DIR$/02/assets/app/template/app.ejs" />
         <option value="$PROJECT_DIR$/02/assets/main.js" />
-        <option value="$PROJECT_DIR$/02/assets/app/application.js" />
         <option value="$PROJECT_DIR$/02/assets/app/controller/app.js" />
         <option value="$PROJECT_DIR$/lib/controller/dom.js" />
         <option value="$PROJECT_DIR$/00/app/router.js" />
-        <option value="$PROJECT_DIR$/02/assets/app/model/app.js" />
         <option value="$PROJECT_DIR$/node_modules/domino-class/lib/class.js" />
         <option value="$PROJECT_DIR$/node_modules/domino-mvc/lib/router.js" />
+        <option value="$PROJECT_DIR$/02/assets/app/view/app.js" />
+        <option value="$PROJECT_DIR$/node_modules/domino-mvc/domino-view.js" />
+        <option value="$PROJECT_DIR$/node_modules/domino-mvc/domino-model.js" />
+        <option value="$PROJECT_DIR$/node_modules/domino-mvc/lib/view.js" />
+        <option value="$PROJECT_DIR$/node_modules/domino-mvc/lib/model.js" />
+        <option value="$PROJECT_DIR$/node_modules/domino-mvc/lib/application.js" />
+        <option value="$PROJECT_DIR$/02/assets/app/model/app.js" />
+        <option value="$PROJECT_DIR$/02/assets/app/model/item.js" />
+        <option value="$PROJECT_DIR$/02/assets/app/view/item.js" />
+        <option value="$PROJECT_DIR$/02/assets/app/application.js" />
       </list>
     </option>
   </component>
@@ -672,6 +684,13 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -727,12 +746,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32891247" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -815,116 +834,114 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/02/assets/app/controller/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="23" selection-start="203" selection-end="203" vertical-scroll-proportion="0.14957266">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/node-uuid/uuid.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-4.1859503">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02/assets/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="35" selection-start="400" selection-end="400" vertical-scroll-proportion="0.1923077">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="58" selection-start="1081" selection-end="1081" vertical-scroll-proportion="0.39256197">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/domino-mvc/lib/model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="2" selection-start="157" selection-end="157" vertical-scroll-proportion="0.12396694">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/domino-mvc/domino-model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="31" selection-start="98" selection-end="98" vertical-scroll-proportion="0.041322313">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02/assets/app/template/app.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="6" selection-start="1105" selection-end="1105" vertical-scroll-proportion="-31.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02/assets/app/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/domino-class/domino-class.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/controller/dom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="3" selection-start="616" selection-end="616" vertical-scroll-proportion="0.0">
+        <state line="4" column="0" selection-start="101" selection-end="101" vertical-scroll-proportion="0.08264463">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/02/assets/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="19" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02/assets/app/controller/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0">
+        <state line="3" column="19" selection-start="118" selection-end="118" vertical-scroll-proportion="0.06198347">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/00/app/router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="130" selection-start="773" selection-end="773" vertical-scroll-proportion="0.0">
+        <state line="25" column="130" selection-start="773" selection-end="773" vertical-scroll-proportion="0.5165289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/controller/dom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="3" selection-start="616" selection-end="616" vertical-scroll-proportion="0.4752066">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02/assets/app/view/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="40" selection-start="283" selection-end="283" vertical-scroll-proportion="0.21337126">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/domino-mvc/domino-model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/domino-mvc/domino-view.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/domino-mvc/lib/view.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="2" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/02/assets/app/model/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="3" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
+        <state line="11" column="21" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/domino-class/lib/class.js">
+    <entry file="file://$PROJECT_DIR$/02/assets/app/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="21" selection-start="1501" selection-end="1501" vertical-scroll-proportion="0.0">
+        <state line="12" column="20" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/domino-mvc/lib/router.js">
+    <entry file="file://$PROJECT_DIR$/02/assets/app/view/item.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="33" selection-start="614" selection-end="614" vertical-scroll-proportion="0.6903766">
+        <state line="7" column="18" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02/assets/app/model/item.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="45" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/domino-mvc/lib/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="21" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/domino-mvc/lib/model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="3" selection-start="611" selection-end="611" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02/assets/app/template/item.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02/assets/app/template/app.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="55" selection-end="55" vertical-scroll-proportion="0.066273935">
           <folding />
         </state>
       </provider>

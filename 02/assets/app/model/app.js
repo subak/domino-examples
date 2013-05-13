@@ -7,5 +7,11 @@ define(["domino-model"], function (parent) {
 
   var fn = parent.extends(AppModel);
 
+  fn.request = function () {
+    require(["http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=define&tagmode=any&format=json"], function(data) {
+      this.set(data);
+    }.bind(this));
+  };
+
   return AppModel;
 });
