@@ -1,7 +1,4 @@
-<div data-id="<%= this.id %>">
-  <p>hello, world.</p>
-
-  <% this.eachSubView("item", function (element, index, array) { %>
-    <%= this.product %>
-  <% }, this) %>
+<div data-view-id="<%= this.id %>">
+  <%- this.getSubview("form").value %>
+  <%- this.getSubview("form_preview").value %>
 </div>
