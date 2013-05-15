@@ -1,19 +1,13 @@
-define(["/lib/controller/dom.js"], function (parent) {
+define(["domino-controller"], function (parent) {
   "use strict";
 
-  function AppController() {
+  var self = parent.subclass(function AppController() {
     parent.apply(this, arguments);
-  }
+  });
 
-  var fn = parent.extends(AppController);
+  self.defineMethod(function scopeChange(newURL, oldURL) {
+    debugger
+  });
 
-  fn.domEvents = {
-    "click": "click"
-  };
-
-  fn.click = function (ev) {
-
-  };
-
-  return AppController;
+  return self;
 });

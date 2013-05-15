@@ -1,13 +1,13 @@
 define([
-  "knockout", "domino-application", "domino-model",
-  "app/view/app",
+  "knockout", "domino-application", "domino-model", "app/event_listener.js",
+  "app/view/app", "app/controller/app",
   "app/model/item", "app/view/item",
   //"app/view/title",
   "app/model/form", "app/view/form",
   "app/view/form_preview"
 ], function (
-  ko, parent, Model,
-  AppView,
+  ko, parent, Model, EventListener,
+  AppView, AppController,
   ItemModel, ItemView,
   //TitleView,
   FormModel, FormView,
@@ -25,13 +25,19 @@ define([
 
     var appView = new AppView(new Model, {id: "app"});
     //new TitleView(scopeModel);
-
     new FormView(formModel, {id: "form"});
     var p = new FormPreviewView(formModel, {id: "form_preview"});
 
     appView.render(); // domViewの場合は連動してdomを置き換える
     formModel.value = {}; // render
     p.render();
+
+    var eventListener = new EventListener(window, {
+      rootController: appView.controller,
+      rootEventTypes: ["hashchange"],
+      rootEvents: '{hashchange: ["scopeChange", event.newURL, event.oldURL]}'
+    });
+
   });
 
   /**

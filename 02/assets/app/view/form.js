@@ -1,4 +1,6 @@
-define(["/lib/view/ejs.js", "ejs!app/template/form.ejs"], function (parent, ejs) {
-  var FormView = parent.subclassWithEjs(ejs);
-  return FormView;
+define(["/lib/view/ejs.js", "/lib/view/dom.js", "ejs!app/template/form.ejs"], function (EjsView, DomView, ejs) {
+  var self = DomView.subclass(EjsView.subclassWithEjs(ejs), DomView);
+  self.prototype.name = "FormView";
+
+  return self;
 });
