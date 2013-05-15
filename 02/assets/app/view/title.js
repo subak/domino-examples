@@ -1,7 +1,7 @@
-define(["domino-view", "ejs!app/template/item.ejs"], function (parent, ejs) {
+define(["domino-view", "ejs!app/template/title.ejs"], function (parent, ejs) {
   "use strict";
 
-  function ItemView() {
+  function TitleView () {
     parent.apply(this, arguments);
 
     var product = "<span data-view-id='" + this.id + "'></span>";
@@ -20,7 +20,7 @@ define(["domino-view", "ejs!app/template/item.ejs"], function (parent, ejs) {
     }
   }
 
-  var fn = parent.extends(ItemView);
+  var fn = parent.extends(TitleView);
 
-  return ItemView;
+  return TitleView;
 });

@@ -1,0 +1,8 @@
+<title data-view-id="<%= this.id %>">
+  <% this.caseOf(this.model.scope, { -%>
+  <% "PageA": function() { -%>
+  ページA
+  <% }, "PageB": function () { -%>
+  ページB
+  <% }}) -%>
+</title>

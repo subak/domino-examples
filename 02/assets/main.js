@@ -3,12 +3,11 @@ require(["knockout", "app/application", "domReady!"], function(ko, Application) 
 
   var app = new Application();
 
-  var vm = {
-    title: app.title.get(),
-    html: app.html
-  };
+//  var vm = {
+//    title: app.title.get(),
+//    html: app.html
+//  };
 
-  ko.applyBindings(vm, document.documentElement);
-
-  app.afterBinding();
+  //ko.applyBindings(vm, document.documentElement);
+  //app.afterBinding();
 });

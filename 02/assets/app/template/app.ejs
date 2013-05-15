@@ -1,7 +1,7 @@
 <div data-id="<%= this.id %>">
   <p>hello, world.</p>
 
-  <div data-bind="foreach: items">
-    <div data-bind="html: html"></div>
-  </div>
+  <% this.eachSubView("item", function (element, index, array) { %>
+    <%= this.product %>
+  <% }, this) %>
 </div>

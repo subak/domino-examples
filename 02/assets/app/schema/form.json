@@ -1,0 +1,13 @@
+{
+  "title": "form部品のschema",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "password": {
+      "type": "string"
+    }
+  },
+  required: ["id", "password"]
+}

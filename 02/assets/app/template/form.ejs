@@ -1,0 +1,6 @@
+<form data-view-id="<%= this.id %>" data-events='{submit: ["submit", event.preventDefault()]}'>
+  <%= this.select(this.model.items, this.model.item, {"data-events": '{change: ["changeItem", this.value]}'}) %>
+  <input type="text" value="<%= this.model.id>" data-events='{change: ["changeId", this.value]}'>
+  <input type="password" value="<%= this.model.pass>" data-events='{change: ["changePassword", this.value]}'>
+  <input type="submit" value="送信">
+</form>
