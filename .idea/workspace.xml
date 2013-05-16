@@ -4,10 +4,6 @@
     <list default="true" id="aef8545f-fc28-4da2-b71a-3634fb4d6bc8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/domino-class" afterPath="$PROJECT_DIR$/node_modules/domino-class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/domino-mvc" afterPath="$PROJECT_DIR$/node_modules/domino-mvc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02/assets/app/controller/app.js" afterPath="$PROJECT_DIR$/02/assets/app/controller/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02/assets/app/view/app.js" afterPath="$PROJECT_DIR$/02/assets/app/view/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02/assets/app/application.js" afterPath="$PROJECT_DIR$/02/assets/app/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02/assets/app/view/form.js" afterPath="$PROJECT_DIR$/02/assets/app/view/form.js" />
     </list>
     <ignored path="domino-examples.iws" />
     <ignored path=".idea/workspace.xml" />
